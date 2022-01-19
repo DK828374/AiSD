@@ -1,0 +1,7 @@
+Niech g będzie grafem nieważonym skierowanym (obiektem klasy Graph z lab 7).
+W grafie g odwzorować dowolną (niewielką, przykładową, niekoniecznie istniejącą) sieć dróg jednokierunkowych pomiędzy wierzchołkami, gdzie wierzchołki będą reprezentowały skrzyżowania.
+
+Przygotować funkcję dead_path(g: Graph, cross_id: Any) -> Optional[List[Vertex]], która zwróci (w przypadku istnienia) listę wierzchołków tworzących ścieżkę,
+która zaczyna się i kończy w wierzchołku o wartości przekazanej w argumencie cross_id. W przypadku braku istnienia takiej ścieżki, zwrócić None.
+
+Celem sprawdzenia rozwiązania przygotować 3 dowolne grafy testowe.
